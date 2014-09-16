@@ -1,5 +1,6 @@
 set nocompatible
 
+set t_Co=256
 set background=dark
 set scrolloff=10
 colorscheme grb256

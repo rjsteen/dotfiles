@@ -1,0 +1,27 @@
+[push]
+  default = current
+[alias]
+  co = checkout
+  aa = add --all
+  alias = config --get-regexp 'alias.*'
+  amend = commit --amend -C HEAD
+  ap = add --patch
+  au = add --update
+  br = branch
+  ca = commit --amend
+  co = checkout
+  cp = cherry-pick
+  cpc = cherry-pick --continue
+  dc = diff --cached
+  di = diff
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  la = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lh = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative -n 20
+  lha = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative -n 20
+  rbi = rebase --interactive
+  rbc = rebase --continue
+  rba = rebase --abort
+  st = status
+[user]
+	name = Richard Steen
+	email = rsteen@onsitehd.com
